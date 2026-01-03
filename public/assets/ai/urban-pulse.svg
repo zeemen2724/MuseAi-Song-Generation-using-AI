@@ -1,0 +1,38 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Urban Pulse cover">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#0F0F1A"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="25%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FF3D9A" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FF3D9A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="70%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#3D7CFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3D7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3D9A"/>
+      <stop offset="50%" stop-color="#8A3DFF"/>
+      <stop offset="100%" stop-color="#3D7CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <rect width="1200" height="1200" fill="url(#glow1)"/>
+  <rect width="1200" height="1200" fill="url(#glow2)"/>
+  <g opacity="0.9">
+    <path d="M0 780 Q160 700 260 760 L320 520 L380 820 L460 600 L520 840 L600 540 L680 860 L760 580 L840 820 L920 540 L1000 780 L1200 680 L1200 1200 L0 1200 Z" fill="url(#wave)" fill-opacity="0.35"/>
+    <path d="M0 820 Q200 740 300 800 L360 560 L430 860 L500 640 L560 880 L640 580 L720 900 L800 620 L880 860 L960 600 L1040 820 L1200 720 L1200 1200 L0 1200 Z" fill="url(#wave)" fill-opacity="0.25"/>
+  </g>
+  <g opacity="0.5">
+    <circle cx="260" cy="340" r="120" fill="#FF3D9A" fill-opacity="0.18"/>
+    <circle cx="900" cy="420" r="150" fill="#3D7CFF" fill-opacity="0.16"/>
+    <circle cx="620" cy="300" r="130" fill="#8A3DFF" fill-opacity="0.14"/>
+  </g>
+  <g stroke="url(#wave)" stroke-width="3" stroke-linecap="round" opacity="0.45">
+    <polyline points="80,540 200,500 320,560 440,500 560,560 680,500 800,560 920,500 1040,560"/>
+    <polyline points="120,480 240,440 360,500 480,440 600,500 720,440 840,500 960,440 1080,500"/>
+  </g>
+</svg>
+

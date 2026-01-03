@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+/* === Futuristic Full-Page Gradient Background === */
+body {
+  @apply min-h-screen text-white antialiased relative overflow-x-hidden;
+  position: relative;
+}
+
+html {
+  background: #000000;
+}
+
+.gradient-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background: radial-gradient(900px at 70% 50%, rgba(88, 101, 242, 0.45), transparent 60%),
+    radial-gradient(800px at 30% 70%, rgba(199, 48, 255, 0.4), transparent 60%),
+    radial-gradient(700px at 50% 20%, rgba(0, 200, 255, 0.35), transparent 60%);
+  filter: blur(40px);
+  animation: floaty 14s ease-in-out infinite alternate;
+}
+
+@keyframes floaty {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  100% {
+    transform: translateY(-40px) translateX(20px);
+  }
+}
+
+.content-container {
+  @apply w-full max-w-[1440px] mx-auto;
+}
+
+.section-spacing {
+  @apply py-16 md:py-20 lg:py-24;
+}
+
+.container-padding {
+  @apply px-5 md:px-12 xl:px-20;
+}
+
+.glass-surface {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  @apply border border-white/10 backdrop-blur-2xl;
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.35),
+    0 0 30px rgba(61, 124, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.gradient-orb {
+  background: radial-gradient(circle, #3d7cff4d 0%, #8a3dff33 50%, transparent 70%);
+  filter: blur(60px);
+}
+
+.bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.6), transparent 70%);
+  pointer-events: none;
+}

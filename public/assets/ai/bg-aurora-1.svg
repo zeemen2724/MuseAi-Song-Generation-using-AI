@@ -1,0 +1,21 @@
+<svg width="1600" height="1400" viewBox="0 0 1600 1400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aurora gradient background">
+  <defs>
+    <radialGradient id="a1" cx="25%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#3D7CFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3D7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a2" cx="70%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#8A3DFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8A3DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a3" cx="60%" cy="75%" r="40%">
+      <stop offset="0%" stop-color="#FF3D9A" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF3D9A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1400" fill="transparent"/>
+  <rect width="1600" height="1400" fill="url(#a1)"/>
+  <rect width="1600" height="1400" fill="url(#a2)"/>
+  <rect width="1600" height="1400" fill="url(#a3)"/>
+</svg>
+
