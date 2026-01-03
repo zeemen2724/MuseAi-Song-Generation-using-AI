@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MuseAI Frontend (Next.js App Router)
 
 ## Overview
@@ -73,7 +72,3 @@ npm run build && npm run start
 npm run dev
 ```
 Then open http://localhost:3000.
-=======
-# MuseAi-Song-Generation-using-AI
->>>>>>> 3825748c3ae8cbca641de9d0566f7018ddd749e4
-
